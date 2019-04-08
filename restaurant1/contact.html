@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Contact Us</title>
+</head>
+<body>
+  <div>
+  <header>
+    <h1><center>TURKMEN RESTAURANT</center></h1>
+  </header>
+  <hr />
+  <nav>
+    <p>
+      <a href="home.html">Home</a>&nbsp&nbsp&nbsp
+      <a href="menu.html">Menu</a>&nbsp&nbsp&nbsp
+      <a href="contact.html">Contact Us</a>
+    </p>
+  </nav>
+  <hr />
+  <form action="submit.html" method="POST">
+    <label for="name"> Name: </label>
+    <input type="text" id="name" name="name"><br>
+    <label for="email"> Email: </label>
+    <input type="text" id="email" name="email"><br>
+    <label for="phone"> Phone: </label>
+    <input type="phone" id="phone" name="phone"><br>
+    <label for="reasonForInquiry"> Reason for Inquiry: </label>
+    <select id="reasonForInquiry" name="reasonForInquiry">
+      <option value="default" selected>Catering</option>
+      <option value="privateParty">Private Party</option>
+      <option value="feedback">Feedback</option>
+      <option value="other">Other</option>
+    </select><br>
+    <label for="additionalInformation"> Additional Information: </label>
+    <textarea id="additionalInformation" name="additionalInformation"> </textarea><br>
+    <legend>Have you been to the restaurant?</legend>
+    <label for="choice1"> No </label>
+    <input type="radio" id="choice1" name="questionnaire" value="no">
+    <label for="choice2"> Yes </label>
+    <input type="radio" id="choice2" name="questionnaire" value="yes">
+    <legend>Best days to contact you:</legend>
+    <label for="m"> M </label>
+    <input type="checkbox" id="m" name="dayToContact" value="m">
+    <label for="t"> T </label>
+    <input type="checkbox" id="t" name="dayToContact" value="t">
+    <label for="w"> W </label>
+    <input type="checkbox" id="w" name="dayToContact" value="w">
+    <label for="th"> Th </label>
+    <input type="checkbox" id="th" name="dayToContact" value="th">
+    <label for="f"> F </label>
+    <input type="checkbox" id="f" name="dayToContact" value="f">
+    <br>
+  <input type="submit" name="submit" value="Send Request">
+  <footer>
+    <center>
+    <hr />
+	<p>200 25th Street, New York, NY, 10010</p>
+	<p>(123) 456-7890</p>
+	</center>
+  </footer>
+</body>
+</html>

@@ -30,6 +30,18 @@ nav {
   padding-top: 4px;
   padding-left: 4px;
 }
+nav a {
+  background-color: #5b7d87;
+  color: #fef9ff;
+  padding: 8px;
+  border: thin solid #0d1f2d;
+  text-decoration: none;
+  text-align: center;
+}
+nav a:hover {
+  background-color: #fef9ff;
+  color: #5b7d87;
+}
 section {
   background-color: white;
   width: 500px;

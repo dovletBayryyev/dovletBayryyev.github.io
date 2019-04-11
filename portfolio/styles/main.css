@@ -1,0 +1,55 @@
+/*
+Creator: Dovlet Bayryyev
+Date created: April 11, 2019
+Date last modified: April 11, 2019
+*/
+body {
+  background-image: url(https://cnet1.cbsistatic.com/img/-r7adjMKEoTeUc3E54Bp6AOBxLk=/1600x900/2017/10/16/89b1c377-e514-4428-9221-c4493d07b509/matrix-code.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  font-family: 'Roboto', sans-serif;
+  color: #0d1f2d;
+}
+header {
+  margin-bottom: 10px;
+}
+header, footer {
+  background-color: #5b7d87;
+  color: #fef9ff;
+  height: 100px;
+  text-align: center;
+  padding: 30px 10px 20px 10px;
+}
+h1 {
+  font-size: 2.5em;
+}
+nav {
+  width: 100px;
+  background-color: white;
+  padding-top: 4px;
+  padding-left: 4px;
+}
+section {
+  background-color: white;
+  width: 500px;
+  margin: auto;
+  padding: 4px 4px;
+}
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+#about-me, #past-experiences {
+  text-align: center;
+}
+#hobbies {
+  position: relative;
+  left: 30%;
+  padding: px;
+}
+#headingHobbies {
+  position: relative;
+  left: 10%;
+}

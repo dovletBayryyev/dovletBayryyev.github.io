@@ -1,0 +1,13 @@
+body {
+  background-color: #3ee071;
+}
+header, footer {
+  background-color: white;
+}
+table {
+  margin: auto;
+}
+#form {
+  width: 400px;
+  margin: auto;
+}

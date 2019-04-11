@@ -42,6 +42,12 @@ nav a:hover {
   background-color: #fef9ff;
   color: #5b7d87;
 }
+nav a:active {
+  font-weight: bold;
+}
+nav a:visited {
+  color: #e4c3ad;
+}
 section {
   background-color: white;
   width: 500px;

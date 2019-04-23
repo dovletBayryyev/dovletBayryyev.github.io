@@ -1,0 +1,25 @@
+label{
+    display: inline-block;
+    float: left;
+    clear: left;
+    width: 140px;
+    text-align: right;
+    padding: 5px;
+}
+input {
+    display: inline-block;
+    float: left;
+}
+button {
+    width: 150px;
+    position: relative;
+    left: 100px;
+}
+h1 {
+    position: relative;
+    left: 13px;
+}
+p {
+    position: relative;
+    left: 13px;
+}

@@ -1,0 +1,30 @@
+th {
+	text-align: center;
+	font-size: 30px;
+	background-color: white;
+}
+body {
+	position:relative;
+	left: 5%;
+}
+input {
+	width: 70px;
+	position:relative;
+	left: 1%;
+}
+button {
+	position:relative;
+	left: 5%;
+}
+hr {
+	width: 80%;
+	height: 1px;
+	background-color: black;
+}
+td {
+	border: 1px solid black;
+	padding: 3px;
+}
+tr:nth-child(even) {
+	background-color: #f2f2f2;
+}

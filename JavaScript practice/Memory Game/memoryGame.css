@@ -1,0 +1,15 @@
+.card {
+  border:1px solid black;
+  display:inline-block;
+  padding:20px;
+  height:40px;
+  width:30px;
+}
+
+span {
+  display:none;
+}
+
+.show span {
+display:block;
+}

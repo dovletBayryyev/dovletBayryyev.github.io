@@ -4,26 +4,23 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-  <title>Dovlet's Landing Page</title>
+  <link rel="stylesheet" type="text/css" href="displayEvens.css" />
+  <script type="text/javascript" src="displayEvens.js"></script>
+  <title>Display Evens</title>
 </head>
 <body>
-  <div style="max-width:300px; margin:auto;">
-  <header>
-    <h1><br>Dovlet Bayryyev<h1>
-  </header>
-  <p>My Links:</p>
-  <ul>
-    <li><a href="portfolio/index.html">My Portfolio</a></li>
-    <li><a href="https://dovletbayryyev.home.blog/">My Blog</a></li>
-    <li><a href="https://github.com/dovletBayryyev">My GitHub</a></li>
-  </ul>
-  <p>Projects:</p>
-  <ol>
-    <li><a href="restaurant1/home.html">Restaurant Site</a></li>
-    <li><a href="restaurant2/home.html">Restaurant Site with CSS</a></li>
-    <li><a href="restaurant3/home.html">Restaurant Site with JavaScript</a></li>
-  </ol>
-  </div>
+  <h1>Display Evens</h1>
+  <form name="evensForm" onsubmit="return executeForm()">
+    <label for="startNum">Starting Number</label>
+    <input type="number" id="startNum"></br>
+    <label for="endNum">Ending Number</label>
+    <input type="number" id="endNum"></br>
+    <label for="step">Step</label>
+    <input type="number" id="step"></br></br></br></br>
+    <button type="submit">Display Evens</button>
+    <p id="message"></p>
+    <p id="values"></p>
+  </form>
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>

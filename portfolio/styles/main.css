@@ -38,6 +38,15 @@ nav a {
   text-decoration: none;
   text-align: center;
 }
+.btn {
+  padding: 10px 20px;
+    border: 0 none;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    background: #0099cc;
+    color: #ffffff;
+}
 nav a:visited {
   color: #e4c3ad;
 }

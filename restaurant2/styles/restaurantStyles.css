@@ -4,13 +4,6 @@ body {
 header, footer {
   background-color: white;
 }
-table {
-  margin: auto;
-}
-#form {
-  width: 400px;
-  margin: auto;
-}
 nav a {
   background-color: #bf4a01;
   color: #fef9ff;
@@ -25,7 +18,30 @@ nav a:visited {
 nav a:hover {
   background-color: #fef9ff;
   color: #5b7d87;
+  font-weight: bold;
 }
 nav a:active {
+  text-decoration: none;
+}
+.restaurantDescription {
+  width: 390px;
+  margin: auto;
+  text-align: center;
+}
+footer{
+  text-align: center;
+}
+.restaurantName {
+  font-family: 'Anton', sans-serif;
+  text-align: center;
+}
+.itemName {
+  font-size: 1.5em;
   font-weight: bold;
+}
+#entrees {
+  text-align: center;
+}
+#beverages {
+  text-align: center;
 }
